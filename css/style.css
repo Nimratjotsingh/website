@@ -1,3 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 h1{
-    color: blue;
+    color: cyan;
+}
+body{
+    background: linear-gradient(135deg,#021B79 0%, #2193b0 55%, #6dd5ed 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
