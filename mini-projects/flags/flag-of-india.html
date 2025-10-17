@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: lightgray;
+    }
+    .flag{
+        padding: 0px;
+        margin: 0px;
+        border: 10px solid black;
+        border-radius: 5px;
+    }
+    #orange{
+      background-color: #FF9933;
+      width: 900px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #white{
+      background-color: white;
+      width: 900px;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #blue{
+      background-color: blue;
+      width: 190px;
+      height: 190px;
+      border-radius: 50%;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #green{
+      background-color: #138808;
+      width: 900px;
+      height: 200px;
+    }
+    p{
+      font-size: 3rem;
+      color: white;
+    }
+    
+  </style>
+</head>
+
+<body>
+   <div class="flag">
+    <div id="orange">
+        <p>The Flag</p>
+    </div>
+    <div id="white">
+        <div id="blue">
+        <p>of India</p>
+        </div>
+    </div>
+    <div id="green">
+    </div>
+  </div>
+</body>
+
+</html>
